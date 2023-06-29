@@ -1,7 +1,31 @@
 :root {
-    --ff: 'Open Sans', sans-serif;
+  --ff: "Open Sans", sans-serif;
 }
 
-*, *::before, *::after {
-    font-family: var(--ff);
+*,
+*::before,
+*::after {
+  font-family: var(--ff);
 }
+
+body {
+    min-height: 100vh;
+}
+
+.video-home {
+    height: 80vh;
+}
+
+.video-home video {
+    filter: brightness(0.8);
+}
+
+
+.video-home .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
