@@ -115,6 +115,16 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     color: #000000;
 }
 
+/* Forma pago */
+
+.forma-pago {
+    background-color: var(--cards-propuesta);
+}
+.forma-pago img {
+    width: 64px;
+    height: 64px;
+}
+
 
 /* hover states */
 
