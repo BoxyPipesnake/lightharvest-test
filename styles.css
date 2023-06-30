@@ -37,27 +37,11 @@ body {
     align-items: start;
 }
 
-/* Seccion energias */
+/* Seccion energias
+quita container y container energias para despues colocar el text center junto con el h-100 donde anteriormente
+iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo el padding y los estilos que falten
 
-.container-energia {
-    min-height: 330px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem;
-    gap: 1rem;
-}
-
-.container-energia p {
-    text-align: center;
-}
-
-.container-energia p, .container-energia span {
-    color: #ffffff;
-    font-weight: 700;
-    text-transform: uppercase;
-}
+*/
 
 .energia-1 {
     background-image: url('assets/images/molinos-home.jpg');
@@ -76,7 +60,7 @@ body {
 }
 
 .energia-3 {
-    background-image: url('/assets/images/molinos-atardecer.jpg');
+    background-image: url('/assets/images/molinos-home.jpg');
     background-position: 0 0;
     background-repeat: repeat;
     background-size: cover;
