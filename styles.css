@@ -1,5 +1,7 @@
 :root {
   --ff: "Open Sans", sans-serif;
+  --orange-hover: #f06534;
+  --bg-llamada: #001f3d;
 }
 
 *,
@@ -10,6 +12,10 @@
 
 body {
     min-height: 100vh;
+}
+
+.btn-pllamada {
+    background-color: var(--bg-llamada);
 }
 
 .video-home {
@@ -23,9 +29,29 @@ body {
 
 .video-home .container {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 57%;
+    left: 39%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
+/* hover states */
+
+@media (min-width: 992px){
+    .navbar-nav li a {
+        transition: border-radius 0s;
+    }
+    
+    .navbar-nav li a:hover {
+        color: #ffffff;
+        border-radius: 8px;
+        background-color: var(--orange-hover);
+    }
+}
+
+.video-home .container a:hover {
+    background-color: var(--orange-hover);
+}
 
