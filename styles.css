@@ -37,6 +37,53 @@ body {
     align-items: start;
 }
 
+/* Seccion energias */
+
+.container-energia {
+    min-height: 330px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.container-energia p {
+    text-align: center;
+}
+
+.container-energia p, .container-energia span {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.energia-1 {
+    background-image: url('assets/images/molinos-home.jpg');
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.energia-2 {
+    background-image: url('assets/images/nubes-home.jpg');
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.energia-3 {
+    background-image: url('/assets/images/molinos-atardecer.jpg');
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 /* hover states */
 
 @media (min-width: 992px){
