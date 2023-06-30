@@ -88,6 +88,22 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     background-color: var(--cards-propuesta);
 }
 
+/* Conocenos */
+
+.conocenos-container {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://uploads-ssl.webflow.com/6483564a9b35527efcafacd2/6483753faf53a977ac431a28_girasol-min.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conocenos-container div a:hover {
+    background-color: var(--orange-hover);
+    color: #ffffff;
+}
+
+
 /* hover states */
 
 @media (min-width: 992px){
