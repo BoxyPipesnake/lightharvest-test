@@ -2,6 +2,7 @@
   --ff: "Open Sans", sans-serif;
   --orange-hover: #f06534;
   --bg-llamada: #001f3d;
+  --cards-propuesta: #f8f8f8;
 }
 
 *,
@@ -67,6 +68,25 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     background-attachment: fixed;
 }
 
+
+/* Propuestas */
+.propuestas-container h2{
+    color: var(--orange-hover);
+}
+
+.propuestas-heading img {
+    width: 50px;
+    height: 50px;
+}
+
+.propuestas article img {
+    width: 70px;
+    height: 70px;
+}
+
+.propuestas > * {
+    background-color: var(--cards-propuesta);
+}
 
 /* hover states */
 
