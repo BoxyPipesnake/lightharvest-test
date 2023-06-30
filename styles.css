@@ -103,6 +103,18 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     color: #ffffff;
 }
 
+/* Paneles */
+
+.paneles-container div a {
+    background-color: var(--orange-hover);
+    color: #ffffff;
+}
+
+.paneles-container div a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 
 /* hover states */
 
