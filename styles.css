@@ -126,6 +126,51 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     height: 64px;
 }
 
+/* Testimonios */
+
+.testimonios {
+    height: 90vh;
+    background-color: var(--orange-hover);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.testimonios-inner {
+    background-color: #ffffff;
+    background: #ccc;
+    height: 100%;
+}
+
+.profile {
+    width: 48px;
+    height: 48px;
+}
+
+
+.carousel-item {
+    text-align: center;
+  }
+  
+  .blockquote {
+    margin-bottom: 30px;
+  }
+  
+  .blockquote p {
+    font-size: 18px;
+  }
+  
+  .blockquote-footer {
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+
+
+
+
 /* Form contacto */
 
 .form-contacto {
@@ -156,6 +201,8 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     background-color: var(--btn-enviar);
 }
 
+
+
 /* Footer */
 .footer {
     background-color: var(--orange-hover);
@@ -165,6 +212,8 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     width: 200px;
 }
     
+
+
 
 /* Media queries */
 
