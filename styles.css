@@ -127,13 +127,6 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
 }
 
 /* Form contacto */
-/* .form-contacto {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://uploads-ssl.webflow.com/6483564a9b35527efcafacd2/6483567a9b35527efcaff75f_Panel-min.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--bg-llamada);
-} */
 
 .form-contacto {
     background-color: var(--bg-llamada);
@@ -163,7 +156,17 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     background-color: var(--btn-enviar);
 }
 
-/* hover states */
+/* Footer */
+.footer {
+    background-color: var(--orange-hover);
+}
+
+.logo-lh {
+    width: 200px;
+}
+    
+
+/* Media queries */
 
 @media (min-width: 768px) {
    
