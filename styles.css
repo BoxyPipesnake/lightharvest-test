@@ -141,11 +141,9 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
 
 .testimonios-inner {
     background-color: #ffffff;
-    background: #ccc;
     height: 100%;
     width: 60%;
 }
-
 
 .profile {
     width: 38px;
@@ -158,6 +156,9 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
 }
 
 
+.btn-control img {
+    width: 100px;
+}
 
 /* Form contacto */
 
