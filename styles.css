@@ -3,6 +3,7 @@
   --orange-hover: #f06534;
   --bg-llamada: #001f3d;
   --cards-propuesta: #f8f8f8;
+  --btn-enviar: #222;
 }
 
 *,
@@ -125,8 +126,49 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     height: 64px;
 }
 
+/* Form contacto */
+/* .form-contacto {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://uploads-ssl.webflow.com/6483564a9b35527efcafacd2/6483567a9b35527efcaff75f_Panel-min.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--bg-llamada);
+} */
+
+.form-contacto {
+    background-color: var(--bg-llamada);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form-contacto img {
+    position: absolute;
+    filter: brightness(0.5);
+    height: 100%;
+}
+
+.campos-contacto {
+    z-index: 9999;
+    justify-self: center;
+}
+
+
+
+.btn-form {
+    background-color: var(--orange-hover);
+}
+
+.btn-form:hover {
+    background-color: var(--btn-enviar);
+}
 
 /* hover states */
+
+@media (min-width: 768px) {
+   
+    
+}
 
 @media (min-width: 992px){
     .navbar-nav li a {
@@ -138,6 +180,24 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
         border-radius: 8px;
         background-color: var(--orange-hover);
     }
+
+    .form-contacto {
+        width: 80%;
+        background-color: var(--bg-llamada);
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+        margin-left: 13rem;
+    }
+    
+    .form-contacto img {
+        filter: none;
+        height: 80%;
+        align-self: center;
+        position: relative;
+        right: 50%;
+        top: -20px;
+    }
+
 }
 
 .video-home .container a:hover {
