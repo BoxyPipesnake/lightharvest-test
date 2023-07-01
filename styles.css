@@ -138,6 +138,7 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     padding-bottom: 4rem;
 }
 
+
 .testimonios-inner {
     background-color: #ffffff;
     background: #ccc;
@@ -147,12 +148,13 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
 
 
 .profile {
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
 }
 
 .blockquote p {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    text-align: justify;
 }
 
 
@@ -203,6 +205,12 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
 
 /* Media queries */
 
+@media (min-width: 576px) {
+    .blockquote p {
+        font-size: 1.2rem;
+    }
+}
+
 @media (min-width: 768px) {
 
     .blockquote {
@@ -210,9 +218,8 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     }
 
     .blockquote p {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-
 }
 
 @media (min-width: 992px){
@@ -243,6 +250,16 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
         top: -20px;
     }
 
+    .blockquote p {
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .blockquote p {
+        font-size: 2rem;
+    }
 }
 
 .video-home .container a:hover {
