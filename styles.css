@@ -160,6 +160,10 @@ iba el de energias para ahora si hacer d-flex con j-center y agregar por ultimo 
     width: 100px;
 }
 
+.carousel-indicators {
+    bottom: 15px;
+}
+
 /* Form contacto */
 
 .form-contacto {
