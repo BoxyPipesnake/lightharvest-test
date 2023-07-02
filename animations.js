@@ -37,6 +37,8 @@ controls.forEach((control, position) => {
   });
 });
 
+
+
 // carruselItems.forEach((item)=> {
 //     if(item.classList.contains('active')){
 
